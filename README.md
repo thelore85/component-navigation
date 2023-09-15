@@ -43,7 +43,7 @@ import DarkModeSwitch from 'react-dark-mode-switch-component';
   speed={0.25}
   className="custom-switch"
 />
-
+```
 
 ## Contributing
 Contributions from the community are welcome. If you'd like to contribute to this project, please follow these steps:
