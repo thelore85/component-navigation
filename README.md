@@ -23,7 +23,7 @@ Follow these steps to set up and start using the React Dark Mode Switch Componen
    npm install react-dark-mode-switch-component
    # or
    yarn add react-dark-mode-switch-component
-  ```
+
 
 ## How to use the component
 
@@ -44,7 +44,6 @@ import DarkModeSwitch from 'react-dark-mode-switch-component';
   className="custom-switch"
 />
 
-  ```
 
 ## Contributing
 Contributions from the community are welcome. If you'd like to contribute to this project, please follow these steps:
