@@ -19,18 +19,24 @@ const DarkMode = () => {
   const onThemeModeSwitch = () => {
 
     const currentTheme = isChecked ? "light" : "dark";
+
     // Imposta il tema sul documento
     document.documentElement.setAttribute("data-theme", currentTheme);
     // Salva il tema in localStorage
     localStorage.setItem("theme", currentTheme);
     // Aggiorna lo stato del checkbox
     setIsChecked(!isChecked);
+
+    //cambia la classe delle icone per nasconderle/attivarle
+
+
   };
+
 
   return (
     <div id="dark-mode">
       <span className="toggle-icon">
-        <i className="fas fa-sun"></i>
+        <i className={`fas fa-sun ${isChecked ? "hidden": ""}`}></i>
         <i className={`fas fa-moon ${isChecked ? "" : "hidden"}`}></i>
       </span>
 
