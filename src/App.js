@@ -8,14 +8,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 
 
-
-////////////////////////////////
-/////////TO DO
-//////////////////////////////
-
-// PORTFOLIO SECTION
-// ABOUT SECTION
-
 class App extends Component{
 
 	render(){
