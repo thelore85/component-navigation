@@ -24,24 +24,13 @@ Follow these steps to set up and start using the React Component Navigation in y
 
 ```jsx
 // Import the navigation component into your React application:
-import Navigation from 'react-component-navigation';
+import Menu from //insert your folder path here;
 
 // Integrate the component into your JSX:
-<Navigation />
+<Menu />
 ```
 
-Customize the appearance and behavior by passing props to the component:
 
-```jsx
-<Navigation
-  activeTab={currentTab}
-  onTabChange={handleTabChange}
-  tabs={allTabs}
-  color="blue"
-  size={48}
-  className="custom-navigation"
-/>
-```
 
 ## Contributing
 
