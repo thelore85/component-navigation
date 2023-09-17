@@ -7,8 +7,8 @@ const Footer = () => {
     return(
         <section id="footer">
             <div className="wrapper">
-                <p>This web application is property of piqus</p>
-                <p>visit <a href="https://github.com/thelore85" target="_blank">github/thelore85</a></p>
+                <p>This component is an open-source project. You can contribute!</p>
+                <p>visit <a href="https://github.com/thelore85/component-navigation" target="_blank">github/thelore85</a></p>
             </div>
         </section>
     )
