@@ -15,13 +15,19 @@
   text-align: left;
 }
 
-#hero img{
+#hero .wrapper{
   width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  background-color: var(--background);
+  border-radius: 20px;
 }
 
 #hero .btn{
   margin-right: 15px;
 }
+
+
 
 
 @media only screen and (max-width: 767px) {

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@200;400;600;800&display=swap');
 
 
 /* ////////////////////////
@@ -6,15 +6,19 @@ COLOR SISTEM
 ////////////////////////*/
 
 :root {
-  --primary: #dd0072;
-  --secondary: #006aeb;
+
+  --title: 'Roboto Slab', serif;
+  --text: 'Poppins', sans-serif;
+
+  --primary: #0088dd;
+  --secondary: #12b66c;
 
   --hover: rgb(250, 250, 250);
   --on-hover: rgb(0, 0, 0);
   
   --background:rgb(255, 255, 255);
   --background-img: url(/public/img/code_bg_piqus_org.jpeg);
-  --background-gradient-a:linear-gradient(30deg, #2f97ff 0%, #21d1db 100%);
+  --background-gradient-a:linear-gradient(30deg, #b0d7ff 0%, #bdf287 100%);
   --background-gradient-b:linear-gradient(30deg, rgba(203,0,139,1) 0%, rgb(255, 0, 115) 100%);
   
   --box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.192);
@@ -53,7 +57,7 @@ GENERAL SETTING
 html{  scroll-behavior: smooth;}
 
 body{
-	font-family: 'Poppins', sans-serif;
+	font-family: var(--text);
 	font-size: 15px;
 	font-weight: 200;
   background-color:var(--background);
@@ -61,20 +65,24 @@ body{
 }
 
 h1,h2,h3,h4,h5 {
-  font-family: 'Baloo 2', sans-serif;
+  font-family: var(--title);
   text-transform: capitalize;
   color: var(--on-background);
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: 30px;
 }
 
 h1{ font-size: 45px;}
 
-h2{	font-size: 25px;}
+h2{	
+  font-size: 25px;
+  font-weight: 400;
+}
 
-h3, h4, h5{	
+h3,h4,h5{	
   font-size: 18px; 
   margin-bottom: 15px;
+  font-weight: 400;
 }
 
 p {margin-bottom: 30px;}
@@ -105,6 +113,11 @@ section{
     width: 100%;
     max-width: 1000px;
 }
+
+/* .vertical-align{
+  display: flex;
+  align-items: center;
+} */
 
 
 /* /////////////////////////// */

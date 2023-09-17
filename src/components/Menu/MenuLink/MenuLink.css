@@ -1,0 +1,23 @@
+.navigation a{
+  color: var(--on-background);
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.navigation a:hover{
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.canvas-navigation a{
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-bottom: 10px;
+  display: block;
+  color: black;
+}
+
+.canvas-navigation a:hover{
+  color: var(--primary);
+  text-decoration: underline;
+}

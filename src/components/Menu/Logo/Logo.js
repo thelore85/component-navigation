@@ -4,7 +4,7 @@ import './Logo.css';
 const Logo = () => {
   return(
     <div id="logo" className="">
-      <i className="fa-solid fa-laptop-code"></i>
+      <i className="fa-solid fa-cube"></i>
       <span className="text">PIQUS.io</span>
     </div>
   )

@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from './Logo/Logo.js';
-import DarkMode from './DarkMode/DarkMode.js';
+import Navigation from './Navigation/Navigation.js'
 
 import './Menu.css';
 
@@ -8,10 +8,10 @@ import './Menu.css';
 const Menu = () => {
   return(
     <section id="menu">
-      <nav className="wrapper">  
+      <nav className="wrapper vertical-align">  
 
         <Logo />
-        <DarkMode />
+        <Navigation />
         
       </nav>
     </section>

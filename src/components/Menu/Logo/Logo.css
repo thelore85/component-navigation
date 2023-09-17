@@ -1,13 +1,15 @@
 /* LOGO  */
 #logo{
-  margin: 0;
-  float: left;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
 }
 
 #logo i{
-  margin-right: 15px;
+  margin-right: 8px;
   font-size: 40px;
-  color: var(--primary);
+  color: var(--on-background);
   display: inline-block;
   vertical-align: middle;
 }
@@ -18,14 +20,12 @@
 }
 
 #logo .text{
-	font-family: 'Baloo 2', cursive;
-  font-size: 25px;
+	font-family: var(--title);
+  font-size: 30px;
   display: inline-block;
   vertical-align: middle;
-  font-weight: 600;
-  background: linear-gradient(90deg, rgba(203,0,139,1) 0%, rgb(255, 0, 115) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  color: var(--on-background);
 }
 
 @media only screen and (max-width: 350px) {

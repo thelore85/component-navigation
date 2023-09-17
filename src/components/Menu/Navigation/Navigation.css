@@ -1,0 +1,13 @@
+/* MENU LINKS */
+.navigation {
+  margin: 0;
+}
+
+.navigation a{
+  margin-left: 15px;
+}
+
+.mobile-nagvigation i{
+  font-size: 21px;
+  color: rgb(0, 0, 0);
+}
