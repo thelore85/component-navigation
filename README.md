@@ -17,7 +17,7 @@ The React Component Navigation is designed to simplify navigation in your React 
 Follow these steps to set up and start using the React Component Navigation in your project:
 
 1. Clone this repository: `git clone https://github.com/thelore85/component-navigation.git`
-2. chech the file structure of the project, then copy and paste the code of the component in your own project
+2. Check the file structure of the project, then copy and paste the code of the component in your own project
 
 
 ## How to Use the Component
