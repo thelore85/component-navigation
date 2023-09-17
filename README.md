@@ -44,7 +44,7 @@ We welcome contributions from the community. If you'd like to contribute to this
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/thelore85/component-navigation/blob/main/LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/thelore85/component-navigation/blob/main/LICENCE.md) file for more details.
 
 **Author:** [Piqus.io](https://piqus.io)
 **Website:** [https://piqus.io](https://piqus.io)
